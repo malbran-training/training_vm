@@ -1,0 +1,6 @@
+qc,samtools=1.15 bcftools=1.15 fastqc-0.11.9,fastqc=0.11.9 multiqc-1.12,multiqc=1.12
+microbial-analysis-II, bwa, samtools, bcftools, snp-sites, gubbins, iqtree
+ena-webin-cli-4.4.0,ena-webin-cli=4.4.0
+ncbi-genome-download-0.3.1,ncbi-genome-download=0.3.1
+microbial-analysis-II,roary=3.13.0 prokka=1.14.6 fastree=2.1.11 assembly-stats=1.0.1 spades=3.15.4
+ariba-2.14.6,ariba=2.14.6 pysam=0.18
