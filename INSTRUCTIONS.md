@@ -19,34 +19,39 @@
 ### 5) Install guest additions
 <p>Insert and run the guest additions. Set the Shared Clipboard and Drag and Drop to be bidirectional. Restart the machine. Don't forget to eject the Guest Additons disk.</p>
 
-### 6) Clone the repo for installing the software
+### 6) Install singularity as root
+
+    wget https://github.com/sylabs/singularity/releases/download/v3.9.8/singularity-ce_3.9.8-focal_amd64.deb
+    sudo dpkg -i singularity-ce_3.9.8-focal_amd64.deb
+    rm singularity-ce_3.9.8-focal_amd64.deb
+
+### 7) Clone the repo for installing the software
 
     git clone https://github.com/WTAC-NGS/ngs-vm.git
     cd ngs-vm
 
-### 7) Install miniconda
+### 8) Install miniconda
 
 <p>Install latest version of miniconda for Python 3</p> 
 
     ./install_miniconda.sh
     
-### 8) Install the software
+### 9) Install the software
 
 <p>Install the softare in a specific conda environment and add a line to the bashrc to activate that environment.</p>
 
     ./install_software.sh
 
-### 9) Run the tests
+### 10) Install the nextflow pipelines
 
-    cd tests
-    ./test_unix.sh
+    XXX    
     
-### 10) To enable shared folders
+### 11) Install the additional software not available in a conda channel
+
+    XXX
+    
+### 12) To enable shared folders
 
     sudo usermod -a -G vboxsf manager
   
-### 11) Add terminal and screenshot to the menu
-
-### 12) Tag the repo
-
-<p>Tag a version of the repo used to make the VM using the name of the course as the tag name. Historically, this has not ben done. </p>
+### 13) Add terminal and screenshot to the menu
