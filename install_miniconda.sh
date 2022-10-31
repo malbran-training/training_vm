@@ -21,7 +21,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 bash miniconda.sh -b -p $MINICONDA
 
 # Set conda for autoinstalls and update conda
-conda config --set always_yes yes --set changeps1 no
+conda config --set always_yes yes
 conda update -n base -c defaults conda
 
 # Useful for debugging any issues with conda
