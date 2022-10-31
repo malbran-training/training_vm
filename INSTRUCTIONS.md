@@ -16,6 +16,7 @@
 
     mkdir ~/src
     sudo apt-get install gcc make git
+    sudo apt-get install gnuplot
 
 ### 5) Install guest additions
 
