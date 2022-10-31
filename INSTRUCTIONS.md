@@ -27,8 +27,8 @@
 
 ### 7) Clone the repo for installing the software
 
-    git clone https://github.com/WTAC-NGS/ngs-vm.git
-    cd ngs-vm
+    git clone https://github.com/pgimer-training/training_vm.git
+    cd training_vm
 
 ### 8) Install miniconda
 
