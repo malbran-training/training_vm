@@ -21,9 +21,6 @@ conda create -n nextflow-pipelines nextflow=21.10.6
 conda activate nextflow-pipelines
 conda install nf-core
 
-# Install other software
-conda install XXX
-
 # Set up environment variables
 cd ~
 mkdir singularity
