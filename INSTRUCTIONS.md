@@ -40,15 +40,17 @@
 
 <p>Install the softare in a specific conda environment and add a line to the bashrc to activate that environment.</p>
 
-    ./install_software.sh
+    ./install_conda_software.sh
 
 ### 10) Install the nextflow pipelines
 
-    XXX    
+    ./install_nf_pipelines.sh    
     
 ### 11) Install the additional software not available in a conda channel
 
-    XXX
+    ./install_bactinspector.sh
+    ./install_remove_blocks.sh
+    ./install_convert_tsv_to_embl.sh
     
 ### 12) To enable shared folders
 
