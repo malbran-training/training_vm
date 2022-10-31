@@ -23,37 +23,49 @@
 
     wget https://github.com/sylabs/singularity/releases/download/v3.9.8/singularity-ce_3.9.8-focal_amd64.deb
     sudo dpkg -i singularity-ce_3.9.8-focal_amd64.deb
-    rm singularity-ce_3.9.8-focal_amd64.deb
+    rm singularity-ce_3.9.8-focal_amd64.deb  
+    
+### 7) Define a global variable $MINICONDA
 
-### 7) Clone the repo for installing the software
+    sudo nano /etc/profile.d/miniconda.sh 
+
+<p>Add the following line to the file:</p>
+
+    export MINICONDA=/home/software/miniconda
+    
+### 8) Reboot
+
+     sudo reboot
+
+### 9) Clone the repo for installing the software
 
     git clone https://github.com/pgimer-training/training_vm.git
     cd training_vm
 
-### 8) Install miniconda
+### 10) Install miniconda
 
 <p>Install latest version of miniconda for Python 3</p> 
 
     ./install_miniconda.sh
     
-### 9) Install the software
+### 11) Install the software
 
 <p>Install the softare in a specific conda environment and add a line to the bashrc to activate that environment.</p>
 
     ./install_conda_software.sh
 
-### 10) Install the nextflow pipelines
+### 12) Install the nextflow pipelines
 
     ./install_nf_pipelines.sh    
     
-### 11) Install the additional software not available in a conda channel
+### 13) Install the additional software not available in a conda channel
 
     ./install_bactinspector.sh
     ./install_remove_blocks.sh
     ./install_convert_tsv_to_embl.sh
     
-### 12) To enable shared folders
+### 14) To enable shared folders
 
     sudo usermod -a -G vboxsf manager
   
-### 13) Add terminal and screenshot to the menu
+### 15) Add terminal and screenshot to the menu
