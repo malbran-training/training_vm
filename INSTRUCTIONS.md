@@ -14,9 +14,11 @@
 
 ### 4) Install the following software
 
+    mkdir ~/src
     sudo apt-get install gcc make git
 
 ### 5) Install guest additions
+
 <p>Insert and run the guest additions. Set the Shared Clipboard and Drag and Drop to be bidirectional. Restart the machine. Don't forget to eject the Guest Additons disk.</p>
 
 ### 6) Install singularity as root
