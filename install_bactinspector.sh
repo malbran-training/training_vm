@@ -21,8 +21,10 @@ wget https://gitlab.com/antunderwood/bactinspector/-/archive/0.1.3/bactinspector
 tar -xf bactinspector-0.1.3.tar.gz
 
 # Create bactinspctor conda profile
-conda create -n bactinspector-0.1.3 python=3.8
-conda activate bactinspector-0.1.3
+#conda create -n bactinspector-0.1.3 python=3.8
+#conda activate bactinspector-0.1.3
+
+conda activate qc
 
 # Install dependencies
 conda install mash=2.3
