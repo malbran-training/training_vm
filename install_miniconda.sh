@@ -37,6 +37,9 @@ conda config --set channel_priority true
 # Initialise conda
 conda init bash
 
+cd ~
+mkdir course_data
+cd course_data
 git clone https://github.com/pgimer-training/linux.git
 git clone https://github.com/pgimer-training/data_formats.git
 git clone https://github.com/pgimer-training/data_archives.git
