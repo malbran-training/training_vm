@@ -24,7 +24,7 @@
 
 ### 6) Install singularity as root
 
-    wget https://github.com/sylabs/singularity/releases/download/v3.9.8/singularity-ce_3.9.8-focal_amd64.deb
+    wget https://github.com/sylabs/singularity/releases/download/v3.10.2/singularity-ce_3.10.2-jammy_amd64.deb
     sudo dpkg -i singularity-ce_3.9.8-focal_amd64.deb
     rm singularity-ce_3.9.8-focal_amd64.deb  
     
@@ -72,3 +72,5 @@
     sudo usermod -a -G vboxsf manager
   
 ### 15) Add terminal and screenshot to the menu
+
+### 16) Install Excel equivalent
