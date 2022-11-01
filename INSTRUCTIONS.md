@@ -34,7 +34,7 @@
 
 <p>Add the following line to the file:</p>
 
-    export MINICONDA=/home/software/miniconda
+    export MINICONDA=/home/manager/miniconda
     
 ### 8) Reboot
 
