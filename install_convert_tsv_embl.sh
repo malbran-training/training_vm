@@ -9,7 +9,9 @@
 set -x
 set -eu
 
-# Script assumes a user exists called software and that the script is run as user software
+export MINICONDA="$HOME/miniconda"
+export MINICONDA_BIN_LOCATION="$MINICONDA/bin"
+export PATH="$MINICONDA_BIN_LOCATION:$PATH"
 
 source $MINICONDA/etc/profile.d/conda.sh
 
