@@ -28,13 +28,5 @@ do
     conda create -n $environment $software
 done < software.txt
 
-# Create a jupyter environment to allow instructors to run, edit and convert notebooks
-conda create -n jupyter jupyter=1.0.0 pandoc=2.12
-conda activate jupyter
-pip install bash_kernel
-python -m bash_kernel.install
-conda deactivate
-apt-get install texlive-base texlive-xetex texlive-formats-extra texlive-fonts-extra texlive-luatex
-
 set +eu
 set +x
