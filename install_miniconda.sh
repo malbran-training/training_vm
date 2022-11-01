@@ -37,6 +37,13 @@ conda config --set channel_priority true
 # Initialise conda
 conda init bash
 
+git clone https://github.com/pgimer-training/linux.git
+git clone https://github.com/pgimer-training/data_formats.git
+git clone https://github.com/pgimer-training/data_archives.git
+git clone https://github.com/pgimer-training/microbial_analysis_I.git
+git clone https://github.com/pgimer-training/microbial_analysis_II.git
+git clone https://github.com/pgimer-training/amr.git
+
 echo "!!! Don't forget to set a permanent global variable on the server MINICONDA=$MINICONDA !!!"
 
 set +eu
