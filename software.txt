@@ -1,5 +1,7 @@
 qc,samtools=1.15 bcftools=1.15 fastqc=0.11.9 multiqc=1.12 kraken2=2.1.2
-microbial-analysis-I,bwa=0.7.17 samtools=1.15 bcftools=1.15 snp-sites=2.5.1 gubbins=3.2.0 iqtree=2.2.0 raxml-ng-1.1.0 assembly-stats=1.0.1
+microbial-analysis-I,bwa=0.7.17 samtools=1.15 bcftools=1.15 snp-sites=2.5.1 iqtree=2.2.0 assembly-stats=1.0.1
+gubbins-3.2.0,gubbins=3.2.0
+raxml-ng-1.1.0,raxml-ng=1.1.0
 ena-webin-cli-4.4.0,ena-webin-cli=4.4.0
 ncbi-genome-download-0.3.1,ncbi-genome-download=0.3.1
 microbial-analysis-II,roary=3.13.0 prokka=1.14.6 fastree=2.1.11 assembly-stats=1.0.1 spades=3.15.4
