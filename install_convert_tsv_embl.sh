@@ -20,7 +20,7 @@ cd ~/src
 git clone https://github.com/zadyson/convert_tsv_to_embl.git
 
 # Create convert_tsv_embl conda profile
-conda create -n convert_tsv_embl python2
+conda create -n convert_tsv_embl python=2
 conda activate convert_tsv_embl 
 
 # Install convert_tsv_embl
