@@ -17,7 +17,7 @@ conda activate convert_tsv_embl
 
 # Install convert_tsv_embl
 cd convert_tsv_to_embl 
-chomd 777 convert_csv_embl.py
+chmod 777 convert_csv_embl.py
 cp convert_csv_embl.py ~/minic onda/envs/convert_tsv_embl/bin/
 
 conda deactivate
