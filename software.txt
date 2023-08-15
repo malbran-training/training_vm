@@ -1,7 +1,10 @@
 formats,samtools=1.17 bcftools=1.17 picard-slim=3.0.0
-microbial-analysis-I,bwa=0.7.17 samtools=1.15 bcftools=1.15 snp-sites=2.5.1 iqtree=2.2.0 assembly-stats=1.0.1
+XXX-microbial-analysis-I,bwa=0.7.17 samtools=1.17 bcftools=1.17 snp-sites=2.5.1 iqtree=2.2.0 assembly-stats=1.0.1
 gubbins-3.2.0,gubbins=3.2.0
 pangenome,roary=3.13.0 prokka=1.14.6 fasttree=2.1.11 assembly-stats=1.0.1 spades=3.15.5
+long-read,flye=2.9.2,nanoplot=1.41.6,polypolish=0.5.0,bwa=0.7.17
+bandage,bandage=0.8.1,unicycler=0.5.0
+trycycler,trycycler=0.5.4
 raxml-ng-1.1.0,raxml-ng=1.1.0
 ena-webin-cli-4.4.0,ena-webin-cli=4.4.0
 ncbi-genome-download-0.3.1,ncbi-genome-download=0.3.1
