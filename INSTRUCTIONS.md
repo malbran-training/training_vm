@@ -42,7 +42,7 @@
 
 ### 9) Clone the repo for installing the software
 
-    git clone https://github.com/pgimer-training/training_vm.git
+    git clone https://github.com/malbran-training/training_vm.git
     cd training_vm
 
 ### 10) Install miniconda
@@ -71,6 +71,6 @@
 
     sudo usermod -a -G vboxsf manager
   
-### 15) Add terminal and screenshot to the menu
+### 15) Add terminal, screenshot and firefox to the menu
 
 ### 16) Install Excel equivalent
