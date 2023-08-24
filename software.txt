@@ -1,6 +1,6 @@
 formats,samtools=1.17 bcftools=1.17 picard-slim=3.0.0
-qc,samtools=1.17 fastqc=0.12.1
-XXX-microbial-analysis-I,bwa=0.7.17 samtools=1.17 bcftools=1.17 snp-sites=2.5.1 iqtree=2.2.0 assembly-stats=1.0.1
+qc,samtools=1.17 fastqc=0.12.1 bcftools=1.15 multiqc=1.12 kraken2=2.1.2
+snp-phylogeny,bwa=0.7.17 samtools=1.17 bcftools=1.17 snp-sites=2.5.1 iqtree=2.2.0 assembly-stats=1.0.1
 gubbins-3.2.0,gubbins=3.2.0
 pangenome,roary=3.13.0 prokka=1.14.6 fasttree=2.1.11 assembly-stats=1.0.1 spades=3.15.5
 long-read,flye=2.9.2,nanoplot=1.41.6,polypolish=0.5.0,bwa=0.7.17
