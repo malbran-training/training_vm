@@ -71,6 +71,10 @@
 
     sudo usermod -a -G vboxsf manager
   
-### 15) Add terminal, screenshot and firefox to the menu
+### 15) Install tree
 
-### 16) Install Excel equivalent
+    sudo apt-get install tree
+
+### 16) Add terminal, screenshot and firefox to the menu
+
+### 17) Install Excel equivalent
