@@ -23,10 +23,10 @@
 <p>Insert and run the guest additions. Set the Shared Clipboard and Drag and Drop to be bidirectional. Restart the machine. Don't forget to eject the Guest Additons disk.</p>
 
 ### 6) Install singularity as root
-
-    wget https://github.com/sylabs/singularity/releases/download/v3.10.2/singularity-ce_3.10.2-jammy_amd64.deb
-    sudo dpkg -i singularity-ce_3.9.8-focal_amd64.deb
-    rm singularity-ce_3.9.8-focal_amd64.deb  
+    sudo apt-get install crun
+    wget https://github.com/sylabs/singularity/releases/download/v3.11.4/singularity-ce_3.11.4-jammy_amd64.deb
+    sudo dpkg -i singularity-ce_3.11.4-jammy_amd64.deb
+    rm singularity-ce_3.11.4-jammy_amd64.deb
     
 ### 7) Define a global variable $MINICONDA
 
@@ -68,9 +68,9 @@
     ./install_convert_tsv_to_embl.sh
     
 ### 14) To enable shared folders
-
+        
     sudo usermod -a -G vboxsf manager
-  
+
 ### 15) Install tree
 
     sudo apt-get install tree
