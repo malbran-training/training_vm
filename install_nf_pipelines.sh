@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Script to install next flow nf-core and ghru pipelines
+# Script to install next flow nf-core and some pipelines
 # Author: Jacqui Keane
 #
 # Usage: install_nf_pipelines.sh
@@ -31,8 +31,8 @@ mkdir nf-pipelines
 cd nf-pipelines
 
 echo "Installing pipelines from nf core..."
-nf-core download --compress none --container singularity --revision 1.10.0 fetchngs
-nf-core download --compress none --container singularity --revision 1.0.0 bactmap
+nf-core download --compress none --container-system  singularity --revision 1.10.0 fetchngs
+nf-core download --compress none --container-system singularity --revision 1.0.0 bactmap
 
 cd ..
 
@@ -44,6 +44,9 @@ cp run_fetch*.sh $MINICONDA/envs/nextflow-pipelines/bin
 cp run_bactmap*.sh $MINICONDA/envs/nextflow-pipelines/bin
 
 conda deactivate
+
+cd ..
+rn -rf nf_pipeline_scripts
 
 set +eu
 set +x
