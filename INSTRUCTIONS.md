@@ -66,6 +66,7 @@
     ./install_bactinspector.sh
     ./install_remove_blocks.sh
     ./install_convert_tsv_to_embl.sh
+    sudo apt-get install seaview
     
 ### 14) To enable shared folders
         
