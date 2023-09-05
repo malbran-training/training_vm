@@ -84,5 +84,6 @@
 ### 18) Create an additional user bioinf
 
    sudo useradd -m -s /bin/bash bioinf
+   
    sudo passwd bioinf
 
