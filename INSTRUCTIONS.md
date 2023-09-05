@@ -80,3 +80,9 @@
 ### 16) Install Excel equivalent (LibreOffice)
 
 ### 17) Add terminal, screenshot, slack, Excel and firefox to the menu
+
+### 18) Create an additional user bioinf
+
+   sudo useradd -m -s /bin/bash bioinf
+   sudo passwd bioinf
+
