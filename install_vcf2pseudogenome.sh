@@ -18,6 +18,7 @@ source $MINICONDA/etc/profile.d/conda.sh
 # Take a copy of the software 
 cd ~/src
 wget https://raw.githubusercontent.com/nf-core/bactmap/master/bin/vcf2pseudogenome.py
+chmod 777 vcf2pseudogenome.py
 
 # Put the script in the bin directory
 mv vcf2pseudogenome.py $MINICONDA_BIN_LOCATION
