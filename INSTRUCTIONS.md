@@ -63,6 +63,7 @@
     
 ### 13) Install the additional software not available in a conda channel
 
+    ./install_vcf2pseodogenome.sh
     ./install_bactinspector.sh
     ./install_remove_blocks.sh
     ./install_convert_tsv_to_embl.sh
@@ -76,6 +77,6 @@
 
     sudo apt-get install tree
 
-### 16) Add terminal, screenshot and firefox to the menu
+### 16) Install Excel equivalent (LibreOffice)
 
-### 17) Install Excel equivalent
+### 17) Add terminal, screenshot, slack, Excel and firefox to the menu
