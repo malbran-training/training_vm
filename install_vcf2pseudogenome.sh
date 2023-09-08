@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/nf-core/bactmap/master/bin/vcf2pseudogeno
 chmod 777 vcf2pseudogenome.py
 
 # Put the script in the bin directory
-mv vcf2pseudogenome.py $MINICONDA_BIN_LOCATION
+cp vcf2pseudogenome.py ~/miniconda/envs/snp-phylogeny/bin/
 
 set +eu
 set +x
