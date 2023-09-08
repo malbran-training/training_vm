@@ -32,7 +32,6 @@ conda config --add channels default
 conda config --add channels r
 conda config --add channels bioconda
 conda config --add channels conda-forge
-conda config --set channel_priority strict
 
 # Initialise conda
 conda init bash
